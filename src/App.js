@@ -1,9 +1,9 @@
 import './App.css';
 import './style.css';
-import { EventData2 } from './event-data';
+import RefsArray from './refs-array';
 
 
 
 export default function App(){
-  return <EventData2/>
+  return <RefsArray/>
 }
