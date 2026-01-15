@@ -38,8 +38,7 @@ export default function RefsArray() {
                         >
                             <td>{item[0]}</td>
                             <td>{item[1]}</td>
-                            <td><button onClick={() => onClickButton(i)}>
-                                Delete</button></td>
+                            <td><button onClick={() => onClickButton(i)}>Delete</button></td>
                         </tr>
                     )
                 })
