@@ -1,10 +1,11 @@
-import './App.css';
-import './style.css';
-
-import MessageBox from './state-func';
-
-
+import React from 'react';
+import { userContext } from './context';
+import Content from './context-content';
 
 export default function App(){
-  return <MessageBox/>
+  return (
+    <userContext.Provider value={'Natthakit'}>
+      <Content/>
+    </userContext.Provider>
+  )
 }
